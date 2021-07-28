@@ -1,0 +1,15 @@
+#C PROGRAMMING
+
+#include<stdio.h>
+int main()
+{
+	int num;
+	scanf("%d", &num);
+	char a[100];
+	scanf("%s", a);
+	num=num*2;
+	printf("%d\n", num);
+	printf("%s", a);
+
+	return 0;
+}
